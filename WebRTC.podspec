@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
     "type": "Multiple"
   }
   spec.author             = { "Shlomi Sharon" => "shlomis@techsee.me" }
-  spec.source       = { :path => '.' }
+  spec.source       = { :git => 'https://github.com/TechSeeDev/techsee-webrtc-ios-sdk.git' }
   spec.vendored_framework = 'WebRTC.framework'
 end
