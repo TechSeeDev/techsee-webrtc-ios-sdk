@@ -14,4 +14,8 @@ Pod::Spec.new do |spec|
   spec.author             = { "Shlomi Sharon" => "shlomis@techsee.me" }
   spec.source       = { :git => 'https://github.com/TechSeeDev/techsee-webrtc-ios-sdk.git' }
   spec.vendored_framework = 'WebRTC.framework'
+
+"xcconfig": {
+"FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/WebRTC"
+}
 end
