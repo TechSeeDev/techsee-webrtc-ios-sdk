@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.vendored_framework = 'WebRTC.framework'
 
   spec.pod_target_xcconfig = {
-  "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/Frameworks/frameworks/WebRTC"
+  "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/WebRTC"
   }
 end
