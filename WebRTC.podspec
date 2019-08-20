@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = 'MIT'
   spec.author             = { "Shlomi Sharon" => "shlomis@techsee.me" }
   spec.source       = { :git => 'https://github.com/TechSeeDev/techsee-webrtc-ios-sdk.git' }
-  spec.vendored_framework = 'WebRTC.framework'
+  spec.ios.vendored_frameworks = 'WebRTC.framework'
 
   spec.pod_target_xcconfig = {
   "FRAMEWORK_SEARCH_PATHS": "${PODS_ROOT}/WebRTC"
