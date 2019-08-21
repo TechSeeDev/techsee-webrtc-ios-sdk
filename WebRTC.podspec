@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'Multiple', :file => "LICENCE.md" }
   spec.preserve_paths = 'LICENSE.md', 'README.md'
   spec.author             = { "Shlomi Sharon" => "shlomis@techsee.me" }
-  spec.source       = { :git => 'https://github.com/TechSeeDev/techsee-webrtc-ios-sdk.git' }
+  spec.source       = { :http => 'https://dl.google.com/dl/cpdc/3f1fa2e27254ab42/GoogleWebRTC-1.1.28752.tar.gz' }
   spec.ios.vendored_frameworks = 'WebRTC.framework'
 
   spec.pod_target_xcconfig = {
