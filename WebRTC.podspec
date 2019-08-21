@@ -7,7 +7,8 @@ Pod::Spec.new do |spec|
   spec.description  = "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs."
   spec.platform     = :ios, "10.0"
   spec.homepage     = "https://webrtc.org/"
-  spec.license      = 'MIT'
+  spec.license      = { :type => 'Multiple', :file => "LICENCE.md" }
+  spec.preserve_paths = 'LICENSE.md', 'README.md'
   spec.author             = { "Shlomi Sharon" => "shlomis@techsee.me" }
   spec.source       = { :git => 'https://github.com/TechSeeDev/techsee-webrtc-ios-sdk.git' }
   spec.ios.vendored_frameworks = 'WebRTC.framework'
