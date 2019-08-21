@@ -8,9 +8,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "10.0"
   spec.homepage     = "https://webrtc.org/"
   spec.license      = { :type => 'Multiple', :file => "LICENCE.md" }
-  spec.preserve_paths = 'LICENSE.md', 'README.md'
   spec.author             = { "Shlomi Sharon" => "shlomis@techsee.me" }
-  spec.source       = { :http => 'https://dl.google.com/dl/cpdc/3f1fa2e27254ab42/GoogleWebRTC-1.1.28752.tar.gz' }
+  spec.source       = { :git => 'https://github.com/TechSeeDev/techsee-webrtc-ios-sdk.git' }
   spec.ios.vendored_frameworks = 'WebRTC.framework'
 
   spec.pod_target_xcconfig = {
