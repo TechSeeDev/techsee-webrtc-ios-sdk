@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "WebRTC"
+  spec.name         = "TechSeeWebRTC"
   spec.version      = "1.0"
   spec.summary      = "WebRTC iOS SDK"
   spec.description  = "WebRTC is a free, open project that provides browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs."
