@@ -1,7 +1,7 @@
 # WebRTC SDK for iOS
 This pod contains the WebRTC iOS SDK in binary form. It is a dynamic library
 that contains the armv7, arm64 and x86_64 slices.
-Bitcode is not supported.
+Bitcode is supported.
 Our currently provided API’s are Objective C only.
 
 ## Getting started
