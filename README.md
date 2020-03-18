@@ -7,7 +7,7 @@ Podfile:
 source 'https://github.com/CocoaPods/Specs.git'
 target 'YOUR_APPLICATION_TARGET_NAME_HERE' do
  platform :ios, '10.0'
- pod 'TechSeeWebRTC', '= 1.0'
+ pod 'TechSeeWebRTC', '= 1.1'
 end
 ```
 
